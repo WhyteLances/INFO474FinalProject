@@ -141,7 +141,7 @@ function updateChart(cityName) {
       Tooltip
         .html("Date: "+ formatTime(d.date)+"<br>The highest precipitation record: " + d.record_precipitation + " in.")
         .style("left", (d3.mouse(this)[0]+150) + "px")
-        .style("top", (d3.mouse(this)[1]+180) + "px")
+        .style("top", (d3.mouse(this)[1]+280) + "px")
     }
     var mouseleave = function(d) {
       Tooltip

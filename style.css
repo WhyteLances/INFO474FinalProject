@@ -1,14 +1,13 @@
-.axis-label {
-    text-anchor: middle;
-    font-size: 12px;
-    font-weight: semibold;
-}
-
 body {
     font-family: "Open Sans";
     margin: 0;
 }
 
-#main {
+.main {
     margin: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 1em;
 }

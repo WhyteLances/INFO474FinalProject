@@ -7,7 +7,16 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <h2>Daily record for the highest precipitation since 1880</h2>
     <div id="chart">
+    </div>
+    <div>
+        <label for="citySelect">City: </label>
+        <select class="custom-select" id="citySelect" onchange="onChanged()">
+          <option selected value="CLT">CLT</option>
+          <option value="PHL">PHL</option>
+          <option value="KSEA">KSEA</option>
+        </select>
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
